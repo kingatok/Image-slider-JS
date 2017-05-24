@@ -1,0 +1,78 @@
+body {
+	box-sizing: border-box;
+}
+
+#carousel {
+	margin: 0 auto;
+	height: 300px;
+	width: 400px;
+	border: 1px solid #FFF;
+	overflow: hidden;
+}
+
+ul {
+	width: 2000px;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	height: 300px;
+	width: 400px;
+	list-style: none;
+	float: left;
+}
+
+#next {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	background-color: #FFF;
+	display: block;
+	cursor: pointer;
+	z-index: 999;
+	top: 140px;
+	right: 455px;
+}
+
+#prev {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	background-color: #FFF;
+	display: block;
+	cursor: pointer;
+	z-index: 999;
+	top: 140px;
+	left: 455px;
+}
+
+#controls {
+	width: 400px;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	z-index: 99;
+	margin: 0;
+	padding: 0;
+}
+
+#controls a {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	position: relative;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+	background: #FFF;
+}
+
+#controls li {
+	margin: 10px;
+	list-style: none;
+	display: inline-block;
+}
